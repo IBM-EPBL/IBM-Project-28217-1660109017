@@ -1,0 +1,13 @@
+import random
+while(True):
+    a=random.randint(10,99)
+    b=random.randint(10,99)
+    if(a>35):
+        print("high temperature of:",a,"%","alarm is on")
+    elif(a<35):
+        print("Normal temperature of:",a,"%","alarm is off")
+    if(b<60):  
+        print("Normal Humidity of:",b,"%","alarm is off")
+    if(b>60):
+        print("High Humidity of:",b,"%","alarm is on")
+        break
